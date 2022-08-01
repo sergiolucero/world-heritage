@@ -15,6 +15,5 @@ with col1:
     st.dataframe(df.Region.value_counts())
   
 with col2:
-    st.dataframe(df['Country name'].value_counts().head(7))*
-  * 
-  
+    st.dataframe(df['Country name'].value_counts().head(7))
+#
